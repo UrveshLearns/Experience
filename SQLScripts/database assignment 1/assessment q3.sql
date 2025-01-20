@@ -43,7 +43,7 @@ SELECT *FROM Prescription
 INSERT INTO Medic VALUES(1,'Jhon')
 INSERT INTO Medic VALUES(2,'Alan')
 INSERT INTO Medic VALUES(3,'Bob')
-INSERT INTO Medic VALUES(4,'Urvesh')
+INSERT INTO Medic VALUES(4,'onety')
 
 INSERT INTO Patient VALUES(1,'May')
 INSERT INTO Patient VALUES(2,'Ram')
