@@ -28,8 +28,8 @@ SELECT *FROM Reviewer
 SELECT *FROM Report
 
 INSERT INTO Author VALUES(1,'Shakespear');
-INSERT INTO Author VALUES(2,'Patel Urvesh');
-INSERT INTO Author VALUES(3,'Patel Rajendra');
+INSERT INTO Author VALUES(2,'Place Holder');
+INSERT INTO Author VALUES(3,'Holder Place');
 INSERT INTO Author VALUES(4,'Jhon');
 
 INSERT INTO Book VALUES(1,'Lord of the rings',1);
@@ -61,7 +61,7 @@ INSERT INTO Report VALUES (8,4,4,1,'20-6-2024')
 --author with my family name
 SELECT Author.authorID, Author.authorName
 From Author
-WHERE authorName LIKE 'Patel%';
+WHERE authorName LIKE 'Place%';
 
 
 --Rating for the corresponding book with the reviewers name
